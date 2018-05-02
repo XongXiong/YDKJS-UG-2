@@ -47,3 +47,27 @@ var array = [1, 2, 3];
 // If we wanted to access the 2nd item in this array "2" we would have to do this
 console.log(array[1]);
 
+// FUNCTIONS
+// Javascript has function types such as function declarations, function expressions, and arrow functions
+// Function declaration:
+function sayHi() {
+    alert('Hi');
+};
+
+// Function Expression: 
+var sayHello = function () {
+    alert('Hello')
+};
+
+// Arrow functions:
+let sayBye = () => alert('bye');
+
+// We can call these functions by pressing the buttons on the DOM
+
+// BUILT IN METHODS
+// JavaScript has given us some built in functions to save us some work 
+var number = 0;
+console.log(typeof number);
+// Here we use the method .toString to convert the number 0 into a string of 0
+console.log(typeof number.toString());
+
