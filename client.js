@@ -71,3 +71,23 @@ console.log(typeof number);
 // Here we use the method .toString to convert the number 0 into a string of 0
 console.log(typeof number.toString());
 
+// COMPARING VALUES
+// == versus ===
+// == checks for value as well as allowing coercion whereas === checks for value and typeof as well as not allowing coercion
+var x = 2;
+var y = '2';
+
+console.log( x == y ); // true
+console.log(x === y); // false
+
+// Arrays don't equal arrays even though they hold the same values
+var a = [1, 2, 3];
+var b = [1, 2, 3];
+var c = "1,2,3";
+
+console.log(a == c); // true
+console.log(b == c); // true
+console.log(a == b); // false
+
+// We cna also use other operators such as <, >, <=, >=, !=, !==
+
